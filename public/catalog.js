@@ -3,6 +3,13 @@
 window.CATALOG = {
   games: [
     {
+      id: 'mci', name: 'Mini Castle Invasion', version: 'v6.5', kind: 'Défense de château 3D',
+      url: 'https://mini-castle-invasion.vercel.app',
+      desc: "Défends ton château, vague après vague, à travers 12 époques, de la Préhistoire à 2050 : bâtis des tours, répare la muraille, fais évoluer ton château et lance tes troupes. Quatre modes en solo (Zombies, Affrontement contre l'IA, Combat aérien, Combat naval), du multijoueur en local et une progression d'époques à débloquer. Conçu pour le smartphone en portrait.",
+      chips: ['Smartphone en portrait', 'Solo & multijoueur local', 'Installable'],
+      shots: ['mci-1', 'mci-2', 'mci-3'],
+    },
+    {
       id: 'moto', name: 'MotoXplosion', version: 'v2.58', kind: 'Motocross 2,5D',
       url: 'https://motoxplosion.vercel.app',
       desc: "Motocross vu de côté dans de grands paysages peints (scène 3D, rendu cartoon). Une balade infinie en mode Cruising, ou des circuits en Trial, Enduro, Course et Circuit, sur cinq régions (Alpes, Grande Forêt, Canyon, Désert, San Francisco). Une physique de moto exigeante, un garage de motos à gagner et un mode Multijoueur.",
@@ -10,11 +17,18 @@ window.CATALOG = {
       shots: ['moto-1', 'moto-2', 'moto-3'],
     },
     {
-      id: 'mci', name: 'Mini Castle Invasion', version: 'v6.5', kind: 'Défense de château 3D',
-      url: 'https://mini-castle-invasion.vercel.app',
-      desc: "Défends ton château, vague après vague, à travers 12 époques, de la Préhistoire à 2050 : bâtis des tours, répare la muraille, fais évoluer ton château et lance tes troupes. Quatre modes en solo (Zombies, Affrontement contre l'IA, Combat aérien, Combat naval), du multijoueur en local et une progression d'époques à débloquer. Conçu pour le smartphone en portrait.",
-      chips: ['Smartphone en portrait', 'Solo & multijoueur local', 'Installable'],
-      shots: ['mci-1', 'mci-2', 'mci-3'],
+      id: 'mm', name: 'Mini Mission', version: 'v0.28', kind: 'Plateforme 2D pour enfants',
+      url: 'https://minimission-rho.vercel.app',
+      desc: "Des missions d'entraide à enchaîner dans dix villes du monde avec trois héros : Ziggy la Comète (course et turbo), Filou le Tisseur (toile et balancements) et Titan Puce (coups de poing contre les obstacles). Rien n'est jamais punitif : ni mort, ni dégâts. Des albums à remplir et un mode d'emploi intégré.",
+      chips: ['Smartphone & tablette', 'Dès le plus jeune âge', 'Installable'],
+      shots: ['mm-1', 'mm-2', 'mm-3'],
+    },
+    {
+      id: 'ci', name: 'Castle Invasion', version: 'v11.4', kind: 'Stratégie en temps réel',
+      url: 'https://castle-invasion.vercel.app',
+      desc: "Une forteresse médiévale, une muraille de 200 m en cinq secteurs, des hordes de zombies. Fais vivre ton village (bois, pierre, fermes, moulins, forge, marchés), forme archers et soldats, donne tes ordres au doigt ou à la souris (sélection au rectangle, groupes, registre de l'armée), colmate les brèches et brûle l'ennemi avec des feux de bois. Un jeu riche et exigeant, plus long à prendre en main que Mini Castle Invasion.",
+      chips: ['Smartphone, tablette & PC', 'Solo', 'Installable'],
+      shots: ['ci-1', 'ci-2', 'ci-3'],
     },
     {
       id: 'cx', name: 'CitadelleX', version: 'v1.0', kind: 'Défense de citadelle 3D',
@@ -24,25 +38,11 @@ window.CATALOG = {
       shots: ['cx-1', 'cx-2', 'cx-3'],
     },
     {
-      id: 'ci', name: 'Castle Invasion', version: 'v11.4', kind: 'Stratégie en temps réel',
-      url: 'https://castle-invasion.vercel.app',
-      desc: "Une forteresse médiévale, une muraille de 200 m en cinq secteurs, des hordes de zombies. Fais vivre ton village (bois, pierre, fermes, moulins, forge, marchés), forme archers et soldats, donne tes ordres au doigt ou à la souris (sélection au rectangle, groupes, registre de l'armée), colmate les brèches et brûle l'ennemi avec des feux de bois.",
-      chips: ['Smartphone, tablette & PC', 'Solo', 'Installable'],
-      shots: ['ci-1', 'ci-2', 'ci-3'],
-    },
-    {
       id: 'sim', name: 'Simulacre', version: 'v3.9', kind: 'Intelligence autonome',
       url: 'https://simulacre-rho.vercel.app',
       desc: "Une expérience d'intelligence autonome : Néo naît sans rien savoir et apprend tout seul — son corps, les objets, les mots, les autres. Personne ne lui explique rien. Tu observes : ses parents veillent sur lui et élargissent peu à peu l'espace où il a le droit d'aller, son sommeil trie sa mémoire, et le quartier vit autour de lui.",
       chips: ['Observation', 'Navigateur', 'Installable'],
       shots: ['sim-1', 'sim-2', 'sim-3'],
-    },
-    {
-      id: 'mm', name: 'Mini Mission', version: 'v0.28', kind: 'Plateforme 2D pour enfants',
-      url: 'https://minimission-rho.vercel.app',
-      desc: "Des missions d'entraide à enchaîner dans dix villes du monde avec trois héros : Ziggy la Comète (course et turbo), Filou le Tisseur (toile et balancements) et Titan Puce (coups de poing contre les obstacles). Rien n'est jamais punitif : ni mort, ni dégâts. Des albums à remplir et un mode d'emploi intégré.",
-      chips: ['Smartphone & tablette', 'Dès le plus jeune âge', 'Installable'],
-      shots: ['mm-1', 'mm-2', 'mm-3'],
     },
     {
       id: 'man', name: 'Manati', version: '', kind: 'Plateforme 2D',

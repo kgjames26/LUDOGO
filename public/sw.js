@@ -1,5 +1,5 @@
 /* Service worker de Signal : la page s'ouvre même sans réseau. Changer VERSION à chaque mise à jour. */
-const VERSION = 'signal-v2-ludogo-1';
+const VERSION = 'signal-v2-ludogo-2';
 const SHELL = ['/', '/index.html', '/home.css', '/home.js', '/logo.js', '/catalog.js', '/logo-ludogo.svg', '/manifest.webmanifest',
   '/fonts/poppins-Light.woff', '/fonts/poppins-Regular.woff', '/fonts/poppins-Medium.woff', '/fonts/poppins-Bold.woff', '/icons/icon-192.png'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
