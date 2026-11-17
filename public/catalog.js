@@ -30,6 +30,7 @@ window.CATALOG = {
       chips: ['Smartphone, tablette & PC', 'Solo', 'Installable'],
       shots: ['ci-1', 'ci-2', 'ci-3'],
     },
+    /* CitadelleX — en pause (masqué du site). Retirer ce commentaire pour le remettre.
     {
       id: 'cx', name: 'CitadelleX', version: 'v1.0', kind: 'Défense de citadelle 3D',
       url: 'https://citadellex.vercel.app',
@@ -37,6 +38,7 @@ window.CATALOG = {
       chips: ['Tablette & PC', '1 à 2 joueurs', 'Installable'],
       shots: ['cx-1', 'cx-2', 'cx-3'],
     },
+    */
     {
       id: 'sim', name: 'Simulacre', version: 'v3.9', kind: 'Intelligence autonome',
       url: 'https://simulacre-rho.vercel.app',
