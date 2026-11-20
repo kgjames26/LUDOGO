@@ -2,6 +2,7 @@
    shots : captures dans /shots (la 1re est l'image principale). */
 window.CATALOG = {
   games: [
+    /* Mini Castle Invasion — masqué du site (vendu sur Google Play). Retirer ce commentaire pour le remettre.
     {
       id: 'mci', name: 'Mini Castle Invasion', version: 'v6.5', kind: 'Défense de château 3D',
       url: 'https://mini-castle-invasion.vercel.app',
@@ -9,6 +10,7 @@ window.CATALOG = {
       chips: ['Smartphone en portrait', 'Solo & multijoueur local', 'Installable'],
       shots: ['mci-1', 'mci-2', 'mci-3'],
     },
+    */
     {
       id: 'moto', name: 'MotoXplosion', version: 'v2.58', kind: 'Motocross 2,5D',
       url: 'https://motoxplosion.vercel.app',
